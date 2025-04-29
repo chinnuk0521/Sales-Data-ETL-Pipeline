@@ -1,0 +1,24 @@
+2025-04-29 09:40:38,340 - INFO - Starting ETL pipeline
+2025-04-29 09:40:38,340 - INFO - Extracting data from sales_data.csv
+2025-04-29 09:40:38,342 - INFO - Successfully extracted 1000 rows from sales_data.csv
+2025-04-29 09:40:38,342 - INFO - Starting data transformation
+2025-04-29 09:40:38,343 - INFO - Removed 239 rows with missing values
+2025-04-29 09:40:38,345 - INFO - Converted order_date to YYYY-MM-DD format
+2025-04-29 09:40:38,346 - INFO - Created new column 'total_price'
+2025-04-29 09:40:38,346 - INFO - Transformation complete. Final dataset has 761 rows
+2025-04-29 09:40:38,346 - INFO - Starting data load into sales_database.db, table: sales_summary
+2025-04-29 09:40:38,349 - INFO - Database and table 'sales_summary' created/verified successfully
+2025-04-29 09:40:38,352 - INFO - Successfully loaded 761 new records into sales_summary
+2025-04-29 09:40:38,352 - INFO - ETL pipeline completed successfully in 0.01 seconds
+2025-04-29 09:44:31,413 - INFO - Starting ETL pipeline
+2025-04-29 09:44:31,413 - INFO - Extracting data from sales_data.csv
+2025-04-29 09:44:31,417 - INFO - Successfully extracted 1000 rows from sales_data.csv
+2025-04-29 09:44:31,417 - INFO - Starting data transformation
+2025-04-29 09:44:31,418 - INFO - Removed 234 rows with missing values
+2025-04-29 09:44:31,426 - INFO - Converted order_date to YYYY-MM-DD format
+2025-04-29 09:44:31,427 - INFO - Created new column 'total_price'
+2025-04-29 09:44:31,428 - INFO - Transformation complete. Final dataset has 766 rows
+2025-04-29 09:44:31,428 - INFO - Starting data load into sales_database.db, table: sales_summary
+2025-04-29 09:44:31,431 - INFO - Database and table 'sales_summary' created/verified successfully
+2025-04-29 09:44:31,437 - INFO - Successfully loaded 766 new records into sales_summary
+2025-04-29 09:44:31,437 - INFO - ETL pipeline completed successfully in 0.02 seconds
