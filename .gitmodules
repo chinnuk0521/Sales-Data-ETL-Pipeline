@@ -1,0 +1,3 @@
+[submodule "Sales-Data-ETL-Pipeline"]
+	path = Sales-Data-ETL-Pipeline
+	url = https://github.com/chinnuk0521/Sales-Data-ETL-Pipeline
